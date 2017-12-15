@@ -58,9 +58,9 @@
             this.chkPECheckIl = new System.Windows.Forms.CheckBox();
             this.chkPECheck1to1 = new System.Windows.Forms.CheckBox();
             this.gbProject = new System.Windows.Forms.GroupBox();
+            this.textBoxIdent = new System.Windows.Forms.TextBox();
             this.textBoxProjectPath = new System.Windows.Forms.TextBox();
             this.btnBrowse = new System.Windows.Forms.Button();
-            this.textBoxIdent = new System.Windows.Forms.TextBox();
             this.chkInstalled = new System.Windows.Forms.CheckBox();
             this.panelBottomLine = new System.Windows.Forms.Panel();
             this.panelStatus = new System.Windows.Forms.Panel();
@@ -78,9 +78,10 @@
             // 
             // linkOurILAsm
             // 
+            this.linkOurILAsm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.linkOurILAsm.AutoSize = true;
             this.linkOurILAsm.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.linkOurILAsm.Location = new System.Drawing.Point(292, 60);
+            this.linkOurILAsm.Location = new System.Drawing.Point(302, 53);
             this.linkOurILAsm.Name = "linkOurILAsm";
             this.linkOurILAsm.Size = new System.Drawing.Size(13, 13);
             this.linkOurILAsm.TabIndex = 7;
@@ -91,6 +92,7 @@
             // chkOurILAsm
             // 
             this.chkOurILAsm.AutoSize = true;
+            this.chkOurILAsm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkOurILAsm.Location = new System.Drawing.Point(10, 61);
             this.chkOurILAsm.Name = "chkOurILAsm";
             this.chkOurILAsm.Size = new System.Drawing.Size(279, 17);
@@ -101,9 +103,10 @@
             // 
             // linkExpLib
             // 
+            this.linkExpLib.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.linkExpLib.AutoSize = true;
-            this.linkExpLib.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.linkExpLib.Location = new System.Drawing.Point(248, 40);
+            this.linkExpLib.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkExpLib.Location = new System.Drawing.Point(270, 37);
             this.linkExpLib.Name = "linkExpLib";
             this.linkExpLib.Size = new System.Drawing.Size(13, 13);
             this.linkExpLib.TabIndex = 5;
@@ -113,9 +116,10 @@
             // 
             // linkOrdinals
             // 
+            this.linkOrdinals.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.linkOrdinals.AutoSize = true;
             this.linkOrdinals.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.linkOrdinals.Location = new System.Drawing.Point(211, 17);
+            this.linkOrdinals.Location = new System.Drawing.Point(219, 13);
             this.linkOrdinals.Name = "linkOrdinals";
             this.linkOrdinals.Size = new System.Drawing.Size(13, 13);
             this.linkOrdinals.TabIndex = 4;
@@ -126,6 +130,7 @@
             // chkGenExpLib
             // 
             this.chkGenExpLib.AutoSize = true;
+            this.chkGenExpLib.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkGenExpLib.Location = new System.Drawing.Point(10, 41);
             this.chkGenExpLib.Name = "chkGenExpLib";
             this.chkGenExpLib.Size = new System.Drawing.Size(236, 17);
@@ -150,6 +155,7 @@
             // labelOrdinals
             // 
             this.labelOrdinals.AutoSize = true;
+            this.labelOrdinals.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelOrdinals.Location = new System.Drawing.Point(99, 19);
             this.labelOrdinals.Name = "labelOrdinals";
             this.labelOrdinals.Size = new System.Drawing.Size(110, 13);
@@ -202,6 +208,7 @@
             // chkIntermediateFiles
             // 
             this.chkIntermediateFiles.AutoSize = true;
+            this.chkIntermediateFiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkIntermediateFiles.Location = new System.Drawing.Point(10, 101);
             this.chkIntermediateFiles.Name = "chkIntermediateFiles";
             this.chkIntermediateFiles.Size = new System.Drawing.Size(254, 17);
@@ -221,6 +228,7 @@
             // chkCustomILAsm
             // 
             this.chkCustomILAsm.AutoSize = true;
+            this.chkCustomILAsm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkCustomILAsm.Location = new System.Drawing.Point(10, 81);
             this.chkCustomILAsm.Name = "chkCustomILAsm";
             this.chkCustomILAsm.Size = new System.Drawing.Size(96, 17);
@@ -242,12 +250,12 @@
             // 
             // groupPlatform
             // 
-            this.groupPlatform.Controls.Add(this.labelX86X64);
-            this.groupPlatform.Controls.Add(this.labelX64);
-            this.groupPlatform.Controls.Add(this.labelX86);
             this.groupPlatform.Controls.Add(this.rbPlatformAnyCPU);
             this.groupPlatform.Controls.Add(this.rbPlatformX64);
             this.groupPlatform.Controls.Add(this.rbPlatformX86);
+            this.groupPlatform.Controls.Add(this.labelX86X64);
+            this.groupPlatform.Controls.Add(this.labelX64);
+            this.groupPlatform.Controls.Add(this.labelX86);
             this.groupPlatform.Location = new System.Drawing.Point(5, 82);
             this.groupPlatform.Name = "groupPlatform";
             this.groupPlatform.Size = new System.Drawing.Size(119, 43);
@@ -257,7 +265,7 @@
             // labelX86X64
             // 
             this.labelX86X64.AutoSize = true;
-            this.labelX86X64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelX86X64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX86X64.Location = new System.Drawing.Point(67, 9);
             this.labelX86X64.Name = "labelX86X64";
             this.labelX86X64.Size = new System.Drawing.Size(47, 13);
@@ -268,7 +276,7 @@
             // labelX64
             // 
             this.labelX64.AutoSize = true;
-            this.labelX64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelX64.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX64.Location = new System.Drawing.Point(37, 9);
             this.labelX64.Name = "labelX64";
             this.labelX64.Size = new System.Drawing.Size(24, 13);
@@ -279,7 +287,7 @@
             // labelX86
             // 
             this.labelX86.AutoSize = true;
-            this.labelX86.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelX86.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX86.Location = new System.Drawing.Point(3, 9);
             this.labelX86.Name = "labelX86";
             this.labelX86.Size = new System.Drawing.Size(24, 13);
@@ -291,6 +299,7 @@
             // 
             this.rbCecil.AutoSize = true;
             this.rbCecil.Checked = true;
+            this.rbCecil.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbCecil.Location = new System.Drawing.Point(384, 7);
             this.rbCecil.Name = "rbCecil";
             this.rbCecil.Size = new System.Drawing.Size(48, 17);
@@ -302,6 +311,7 @@
             // rbDirect
             // 
             this.rbDirect.AutoSize = true;
+            this.rbDirect.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbDirect.Location = new System.Drawing.Point(297, 7);
             this.rbDirect.Name = "rbDirect";
             this.rbDirect.Size = new System.Drawing.Size(85, 17);
@@ -334,6 +344,7 @@
             // 
             this.labelBackgroundNS.AutoSize = true;
             this.labelBackgroundNS.BackColor = System.Drawing.SystemColors.Control;
+            this.labelBackgroundNS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelBackgroundNS.ForeColor = System.Drawing.Color.DimGray;
             this.labelBackgroundNS.Location = new System.Drawing.Point(5, 8);
             this.labelBackgroundNS.Name = "labelBackgroundNS";
@@ -345,7 +356,7 @@
             // 
             this.linkDDNS.AutoSize = true;
             this.linkDDNS.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.linkDDNS.Location = new System.Drawing.Point(140, 8);
+            this.linkDDNS.Location = new System.Drawing.Point(150, 8);
             this.linkDDNS.Name = "linkDDNS";
             this.linkDDNS.Size = new System.Drawing.Size(99, 13);
             this.linkDDNS.TabIndex = 2;
@@ -355,11 +366,11 @@
             // 
             // groupNS
             // 
+            this.groupNS.Controls.Add(this.linkDDNS);
             this.groupNS.Controls.Add(this.labelBackgroundNS);
             this.groupNS.Controls.Add(this.panelNScombo);
             this.groupNS.Controls.Add(this.rbCecil);
             this.groupNS.Controls.Add(this.rbDirect);
-            this.groupNS.Controls.Add(this.linkDDNS);
             this.groupNS.Location = new System.Drawing.Point(5, 30);
             this.groupNS.Name = "groupNS";
             this.groupNS.Size = new System.Drawing.Size(438, 52);
@@ -394,6 +405,7 @@
             // chkPECheckIl
             // 
             this.chkPECheckIl.AutoSize = true;
+            this.chkPECheckIl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkPECheckIl.Location = new System.Drawing.Point(5, 61);
             this.chkPECheckIl.Name = "chkPECheckIl";
             this.chkPECheckIl.Size = new System.Drawing.Size(113, 17);
@@ -406,6 +418,7 @@
             // chkPECheck1to1
             // 
             this.chkPECheck1to1.AutoSize = true;
+            this.chkPECheck1to1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkPECheck1to1.Location = new System.Drawing.Point(5, 40);
             this.chkPECheck1to1.Name = "chkPECheck1to1";
             this.chkPECheck1to1.Size = new System.Drawing.Size(92, 17);
@@ -416,9 +429,9 @@
             // 
             // gbProject
             // 
-            this.gbProject.Controls.Add(this.textBoxProjectPath);
             this.gbProject.Controls.Add(this.btnBrowse);
             this.gbProject.Controls.Add(this.textBoxIdent);
+            this.gbProject.Controls.Add(this.textBoxProjectPath);
             this.gbProject.Controls.Add(this.chkInstalled);
             this.gbProject.Location = new System.Drawing.Point(5, -4);
             this.gbProject.Name = "gbProject";
@@ -426,10 +439,23 @@
             this.gbProject.TabIndex = 11;
             this.gbProject.TabStop = false;
             // 
+            // textBoxIdent
+            // 
+            this.textBoxIdent.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxIdent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxIdent.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.textBoxIdent.Location = new System.Drawing.Point(73, 7);
+            this.textBoxIdent.Name = "textBoxIdent";
+            this.textBoxIdent.ReadOnly = true;
+            this.textBoxIdent.Size = new System.Drawing.Size(304, 11);
+            this.textBoxIdent.TabIndex = 2;
+            this.textBoxIdent.Text = "{00000000-0000-0000-0000-000000000000}";
+            // 
             // textBoxProjectPath
             // 
             this.textBoxProjectPath.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxProjectPath.Location = new System.Drawing.Point(71, 21);
+            this.textBoxProjectPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxProjectPath.Location = new System.Drawing.Point(73, 21);
             this.textBoxProjectPath.Name = "textBoxProjectPath";
             this.textBoxProjectPath.ReadOnly = true;
             this.textBoxProjectPath.Size = new System.Drawing.Size(304, 13);
@@ -447,21 +473,10 @@
             this.btnBrowse.UseVisualStyleBackColor = true;
             this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
             // 
-            // textBoxIdent
-            // 
-            this.textBoxIdent.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxIdent.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxIdent.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBoxIdent.Location = new System.Drawing.Point(71, 7);
-            this.textBoxIdent.Name = "textBoxIdent";
-            this.textBoxIdent.ReadOnly = true;
-            this.textBoxIdent.Size = new System.Drawing.Size(304, 11);
-            this.textBoxIdent.TabIndex = 2;
-            this.textBoxIdent.Text = "{00000000-0000-0000-0000-000000000000}";
-            // 
             // chkInstalled
             // 
             this.chkInstalled.AutoSize = true;
+            this.chkInstalled.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkInstalled.Location = new System.Drawing.Point(5, 14);
             this.chkInstalled.Name = "chkInstalled";
             this.chkInstalled.Size = new System.Drawing.Size(68, 17);
@@ -503,6 +518,7 @@
             // labelTimeout
             // 
             this.labelTimeout.AutoSize = true;
+            this.labelTimeout.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTimeout.Location = new System.Drawing.Point(71, 16);
             this.labelTimeout.Name = "labelTimeout";
             this.labelTimeout.Size = new System.Drawing.Size(45, 13);
