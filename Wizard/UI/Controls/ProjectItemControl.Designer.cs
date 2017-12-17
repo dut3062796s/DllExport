@@ -81,7 +81,7 @@
             this.linkOurILAsm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.linkOurILAsm.AutoSize = true;
             this.linkOurILAsm.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.linkOurILAsm.Location = new System.Drawing.Point(302, 53);
+            this.linkOurILAsm.Location = new System.Drawing.Point(284, 57);
             this.linkOurILAsm.Name = "linkOurILAsm";
             this.linkOurILAsm.Size = new System.Drawing.Size(13, 13);
             this.linkOurILAsm.TabIndex = 7;
@@ -106,7 +106,7 @@
             this.linkExpLib.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.linkExpLib.AutoSize = true;
             this.linkExpLib.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkExpLib.Location = new System.Drawing.Point(270, 37);
+            this.linkExpLib.Location = new System.Drawing.Point(241, 38);
             this.linkExpLib.Name = "linkExpLib";
             this.linkExpLib.Size = new System.Drawing.Size(13, 13);
             this.linkExpLib.TabIndex = 5;
@@ -119,7 +119,7 @@
             this.linkOrdinals.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.linkOrdinals.AutoSize = true;
             this.linkOrdinals.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.linkOrdinals.Location = new System.Drawing.Point(219, 13);
+            this.linkOrdinals.Location = new System.Drawing.Point(206, 14);
             this.linkOrdinals.Name = "linkOrdinals";
             this.linkOrdinals.Size = new System.Drawing.Size(13, 13);
             this.linkOrdinals.TabIndex = 4;
@@ -188,8 +188,8 @@
             // 
             // groupCompiler
             // 
-            this.groupCompiler.Controls.Add(this.chkIntermediateFiles);
             this.groupCompiler.Controls.Add(this.textBoxCustomILAsm);
+            this.groupCompiler.Controls.Add(this.chkIntermediateFiles);
             this.groupCompiler.Controls.Add(this.chkCustomILAsm);
             this.groupCompiler.Controls.Add(this.linkOurILAsm);
             this.groupCompiler.Controls.Add(this.chkOurILAsm);
@@ -198,6 +198,7 @@
             this.groupCompiler.Controls.Add(this.chkGenExpLib);
             this.groupCompiler.Controls.Add(this.numOrdinal);
             this.groupCompiler.Controls.Add(this.labelOrdinals);
+            this.groupCompiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupCompiler.Location = new System.Drawing.Point(130, 82);
             this.groupCompiler.Name = "groupCompiler";
             this.groupCompiler.Size = new System.Drawing.Size(313, 120);
@@ -219,6 +220,7 @@
             // textBoxCustomILAsm
             // 
             this.textBoxCustomILAsm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxCustomILAsm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.textBoxCustomILAsm.ForeColor = System.Drawing.Color.DarkGray;
             this.textBoxCustomILAsm.Location = new System.Drawing.Point(103, 79);
             this.textBoxCustomILAsm.Name = "textBoxCustomILAsm";
@@ -333,6 +335,7 @@
             // 
             this.comboNS.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboNS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboNS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboNS.FormattingEnabled = true;
             this.comboNS.Location = new System.Drawing.Point(1, 1);
             this.comboNS.Name = "comboNS";
@@ -366,9 +369,9 @@
             // 
             // groupNS
             // 
+            this.groupNS.Controls.Add(this.panelNScombo);
             this.groupNS.Controls.Add(this.linkDDNS);
             this.groupNS.Controls.Add(this.labelBackgroundNS);
-            this.groupNS.Controls.Add(this.panelNScombo);
             this.groupNS.Controls.Add(this.rbCecil);
             this.groupNS.Controls.Add(this.rbDirect);
             this.groupNS.Location = new System.Drawing.Point(5, 30);
@@ -380,6 +383,7 @@
             // numTimeout
             // 
             this.numTimeout.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.numTimeout.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numTimeout.Increment = new decimal(new int[] {
             1000,
             0,
@@ -454,7 +458,7 @@
             // textBoxProjectPath
             // 
             this.textBoxProjectPath.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxProjectPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxProjectPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.textBoxProjectPath.Location = new System.Drawing.Point(73, 21);
             this.textBoxProjectPath.Name = "textBoxProjectPath";
             this.textBoxProjectPath.ReadOnly = true;
@@ -465,6 +469,7 @@
             // btnBrowse
             // 
             this.btnBrowse.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBrowse.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBrowse.Location = new System.Drawing.Point(380, 11);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(54, 23);
